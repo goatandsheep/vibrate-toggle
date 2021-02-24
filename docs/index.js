@@ -15,7 +15,7 @@ function stopVibrate() {
 
 // Start persistent vibration at given duration and interval
 // Assumes a number value is given
-function startPersistentVibrate(duration=1000, interval=1000) {
+function startPersistentVibrate(duration=10000, interval=10000) {
     document.getElementById('state').innerHTML = 'active'
     startVibrate(duration);
     vibrateInterval = setInterval(function() {

@@ -51,7 +51,7 @@ function toggleVibrate(duration=2, interval=1, verbose=false) {
      * @param {Number} [interval=1] milliseconds
      * @param {Boolean} [verbose=false]
      */
-    function startVibrate(duration=1000, interval=1000, verbose=false) {
+    function startVibrate(duration=10000, interval=10000, verbose=false) {
         if (verbose && !navigator.vibrate) {
             throw new Error(ERROR_NO_NAV_VIBRATE)
         }
