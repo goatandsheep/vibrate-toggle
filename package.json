@@ -1,6 +1,6 @@
 {
   "name": "vibrate-toggle",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Mobile browser library for vibration API",
   "main": "index.js",
   "scripts": {

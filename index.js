@@ -55,6 +55,7 @@ function toggleVibrate(duration=2, interval=1, verbose=false) {
         if (verbose && !navigator.vibrate) {
             throw new Error(ERROR_NO_NAV_VIBRATE)
         }
+        _repeatVibrate(duration);
         _vibrateInterval = setInterval(function() {
             _repeatVibrate(duration);
         }, interval);
