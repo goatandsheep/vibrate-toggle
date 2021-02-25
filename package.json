@@ -1,8 +1,9 @@
 {
-  "name": "vibrate-toggle",
+  "name": "piez",
   "version": "1.0.5",
-  "description": "Mobile browser library for vibration API",
+  "description": "Simple mobile browser library for toggling vibration.",
   "main": "index.js",
+  "files": ["index.js"],
   "scripts": {
     "lint": "xo",
     "lint:fix": "xo --fix",
@@ -15,7 +16,11 @@
   "keywords": [
     "vibrate",
     "vibration",
-    "mobile"
+    "mobile",
+    "piez",
+    "piezo",
+    "piezometer",
+    "buzzer"
   ],
   "author": "Kemal Ahmed",
   "license": "MIT",
