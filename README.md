@@ -1,4 +1,4 @@
-# Vibrate Toggle
+# Piez
 
 > A library to help with persistent vibrations on mobile
 
@@ -11,3 +11,5 @@
 ## Credit
 
 Inspired by [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API#continued_vibrations)
+
+Brought to you by [beatcaps.io](https://www.beatcaps.io)
